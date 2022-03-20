@@ -1,0 +1,13 @@
+{
+    "name": "rogue/wire",
+    "description": "PHP Dependency Injection Container",
+    "keywords": ["PHP", "PSR-11", "Dependency Injection"],
+    "autoload": {
+        "psr-4": {
+            "Rogue\\Wire\\": "./src"
+        }
+    },
+    "require": {
+        "psr/container": "^2.0"
+    }
+}
